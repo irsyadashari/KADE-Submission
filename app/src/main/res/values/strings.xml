@@ -1,3 +1,45 @@
 <resources>
-    <string name="app_name">KADE_Submission_1</string>
+    <string name="app_name">Football App</string>
+
+    <string-array name="league_names">
+        <item>English Premier League</item>
+        <item>French Ligue 1</item>
+        <item>German Bundesliga</item>
+        <item>Italian Serie A</item>
+        <item>Spanish La Liga</item>
+        <item>American Mayor League</item>
+        <item>Portugese Premiera Liga</item>
+        <item>Australian A League</item>
+        <item>Scotish Premier League</item>
+        <item>English League 1</item>
+    </string-array>
+
+    <array name="league_desc">
+        <item>Liga Utama Inggris adalah liga tertinggi dalam sistem liga sepak bola di Inggris. Kompetisi ini diikuti oleh 20 klub, dan menerapkan sistem promosi dan degradasi dengan English Football League. Premier League adalah sebuah perusahaan yang di dalamnnya klub peserta liga bertindak sebagai pemegang saham</item>
+        <item>Ligue 1 adalah divisi teratas dalam liga sepak bola Prancis. Ligue 1 terdiri dari 20 tim sejak musim 2002-03. Tiga tim terbawah didegradasikan ke Ligue 2, dan digantikan oleh tiga tim teratas dari divisi tersebut. Ligue 1, dalam bentuknya seperti saat ini, dimulai sejak tahun 1932</item>
+        <item>Bundesliga adalah sebuah liga sepak bola profesional di Jerman. Liga ini adalah liga tingkat atas pada sistem liga sepak bola di Jerman dan merupakan kompetisi utama sepak bola Jerman. Bundesliga yang diikuti oleh 18 klub dan beroperasi dengan sistem promosi dan degradasi dengan 2. Bundesliga.</item>
+        <item>Serie A, juga disebut Serie A TIM karena kesepakatan sponsor dengan Telecom Italia, adalah liga sepak bola profesional tertinggi di sistem liga sepak bola Italia dan telah berjalan selama sembilan puluh tahun lebih sejak dibentuk dengan format saat ini pada musim 1929–30.</item>
+        <item>Campeonato Nacional de Liga de Primera División, umumnya dikenal sebagai La Liga, adalah liga profesional tertinggi dalam sistem kompetisi liga sepak bola di Spanyol.</item>
+        <item>Liga Sepak Bola Utama Amerika Serikat (Major League Soccer atau biasa disingkat MLS) adalah liga sepak bola profesional tingkat tertinggi di Amerika Serikat dan Kanada. Liga ini didukung oleh Federasi Sepak Bola Amerika Serikat (US Soccer). Liga ini terdiri dari 20 klub yang terdiri dari 17 klub berasal dari Amerika Serikat dan 3 klub berasal dari Kanada. MLS telah secara resmi mengumumkan penambahan 4 klub baru secara bertahap mulai tahun 2017 hingga paling lambat tahun 2020.</item>
+        <item>Primeira Liga, sebelumnya disebut Primeira Divisão, sekarang bernama Liga ZON Sagres sesuai dengan nama sponsor utama mereka, adalah divisi sepak bola profesional teratas dalam sistem liga sepak bola Portugal</item>
+        <item>A-League adalah kompetisi sepak bola profesional tingkat tertinggi di Australia. Namun, tim yang tergabung di dalamnya tidak hanya berasal dari Australia saja, tetapi juga terdapat klub yang berasal dari Selandia Baru. A-League memulai musim perdananya pada 2005/2006, yang mana pada musim pertama terdapat 8 tim.</item>
+        <item>Scottish Premiership, yang dikenal karena alasan sponsorship sebagai Ladbrokes Premiership, adalah divisi teratas dari Scottish Professional Football League, kompetisi liga untuk klub sepak bola profesional pria di Skotlandia.</item>
+        <item>Liga Satu Inggris atau League One merupakan nama liga sepak bola di Inggris, di bawah Liga Championship Inggris. Liga ini merupakan liga tingkat ke-3 dalam sistem liga sepak bola Inggris dan divisi ke-2 dalam The Football League. </item>
+    </array>
+
+    <array name="league_logos">
+        <item>@mipmap/english_premier_league</item>
+        <item>@mipmap/french_ligue_1</item>
+        <item>@mipmap/german_bundesliga</item>
+        <item>@mipmap/italian_serie_a</item>
+        <item>@mipmap/spanish_la_liga</item>
+        <item>@mipmap/american_mayor_league</item>
+        <item>@mipmap/portugeuese_premiera_liga</item>
+        <item>@mipmap/australian_a_league</item>
+        <item>@mipmap/scotish_premier_league</item>
+        <item>@mipmap/english_league_1</item>
+    </array>
+
+
+
 </resources>
