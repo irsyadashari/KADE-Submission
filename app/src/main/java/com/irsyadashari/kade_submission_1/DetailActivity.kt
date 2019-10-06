@@ -1,14 +1,12 @@
 package com.irsyadashari.kade_submission_1
 
-import android.media.Image
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Gravity
 import android.view.View
-import android.widget.GridLayout
 import android.widget.ImageView
 import android.widget.TextView
-import androidx.core.view.marginBottom
+import com.irsyadashari.kade_submission_1.model.Item
 import org.jetbrains.anko.*
 
 class DetailActivity : AppCompatActivity() {
@@ -21,6 +19,7 @@ class DetailActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+        //Penerapan Anko Layout
         verticalLayout {
             padding = dip(16)
 
@@ -42,8 +41,10 @@ class DetailActivity : AppCompatActivity() {
             }
         }
 
+        //Getting Value from MainActivity
         val intentFromMainActivity = intent.getParcelableExtra<Item>("item")
 
+        //Setting value to UI
         leagueNameTextView.text = intentFromMainActivity.name
         leagueDescriptionTextView.text = intentFromMainActivity.description
         leagueLogoImageView.imageResource = intentFromMainActivity.image

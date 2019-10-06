@@ -1,19 +1,26 @@
-package com.irsyadashari.kade_submission_1
+package com.irsyadashari.kade_submission_1.adapter
 
 import android.content.Context
 import android.view.LayoutInflater
-import android.view.OrientationEventListener
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.irsyadashari.kade_submission_1.R
+import com.irsyadashari.kade_submission_1.model.Item
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.item_list.view.*
 
-class RecyclerViewAdapter(private val context: Context, private val items:List<Item>,private val listener: (Item)-> Unit)
+class RecyclerViewAdapter(private val context: Context, private val items:List<Item>, private val listener: (Item)-> Unit)
     : RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int) =
-        ViewHolder(LayoutInflater.from(context).inflate(R.layout.item_list, parent, false))
+        ViewHolder(
+            LayoutInflater.from(context).inflate(
+                R.layout.item_list,
+                parent,
+                false
+            )
+        )
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         holder.bindItem(items[position], listener)
@@ -22,9 +29,7 @@ class RecyclerViewAdapter(private val context: Context, private val items:List<I
     override fun getItemCount(): Int = items.size
 
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view){
-
-
-
+        //Penerapan Android KTX
         fun bindItem(items: Item, listener: (Item) -> Unit) {
             itemView.name.text = items.name
             items.image?.let { Picasso.get().load(it).into(itemView.image) }
